@@ -21,13 +21,6 @@ body {
   padding: 0 20px;
 }
 
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 40px;
-  }
-}
 @media (min-width: 1440px) {
   .container {
     max-width: 1320px;
@@ -71,3 +64,4 @@ body {
 
 @import "tablet-640.scss";
 @import "tablet-768.scss";
+@import "tablet-1024.scss";

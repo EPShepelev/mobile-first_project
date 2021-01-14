@@ -29,11 +29,7 @@ function scripts() {
 }
 
 function styles() {
-  return src([
-    "app/scss/style.scss",
-    "app/scss/vars.scss",
-    "app/scss/fonts.scss",
-  ])
+  return src("app/scss/*")
     .pipe(scss({ outputStyle: "compressed" }))
     .pipe(concat("style.min.css"))
     .pipe(
