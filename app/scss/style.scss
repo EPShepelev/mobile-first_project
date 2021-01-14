@@ -20,11 +20,7 @@ body {
 .container {
   padding: 0 20px;
 }
-@media (min-width: 640px) {
-  .container {
-    padding: 0 30px;
-  }
-}
+
 @media (min-width: 768px) {
   .container {
     padding: 0 40px;
@@ -52,13 +48,6 @@ body {
     align-items: center;
   }
 }
-@media (min-width: 640px) {
-  .header {
-    &__inner {
-      min-height: 100px;
-    }
-  }
-}
 
 .menu__btn {
   width: 40px;
@@ -84,3 +73,5 @@ body {
     margin-right: 90px;
   }
 }
+
+@import "tablet-640.scss";
