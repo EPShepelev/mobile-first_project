@@ -54,3 +54,11 @@ body {
     box-shadow: 0 4px 0 0 $accent, 0 8px 0 0 $accent;
   }
 }
+
+.top {
+  background-image: url("../images/bg-slider.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 193px;
+}
