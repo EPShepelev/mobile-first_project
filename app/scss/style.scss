@@ -1,5 +1,9 @@
 @import "vars.scss";
 @import "fonts.scss";
+@import "tablet-640.scss";
+@import "tablet-768.scss";
+@import "tablet-1024.scss";
+@import "tablet-1440.scss";
 
 html {
   box-sizing: border-box;
@@ -50,8 +54,3 @@ body {
     box-shadow: 0 4px 0 0 $accent, 0 8px 0 0 $accent;
   }
 }
-
-@import "tablet-640.scss";
-@import "tablet-768.scss";
-@import "tablet-1024.scss";
-@import "tablet-1440.scss";
