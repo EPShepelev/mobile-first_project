@@ -88,6 +88,7 @@ li {
   &__item {
     color: #fff;
     text-align: center;
+    min-height: 193px;
   }
   &__title {
     font-family: "RobotoCondensed-Regular";
@@ -102,6 +103,10 @@ li {
   .slick-dots {
     display: flex;
     justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
     button {
       font-size: 0;
       border: none;
