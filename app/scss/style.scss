@@ -34,6 +34,13 @@ h6 {
   margin: 0;
 }
 
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .container {
   padding: 0 20px;
 }
@@ -89,5 +96,21 @@ h6 {
     font-weight: 400;
     text-transform: uppercase;
     padding: 36px 0 28px;
+    max-width: 243px;
+    margin: 0 auto;
+  }
+  .slick-dots {
+    display: flex;
+    justify-content: center;
+    button {
+      font-size: 0;
+      border: none;
+      background-color: $accent;
+      padding: 0;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      margin: 0 10px;
+    }
   }
 }

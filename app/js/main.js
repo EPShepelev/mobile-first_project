@@ -9,12 +9,10 @@ $(function () {
         settings: {},
       },
       {
-        breakpoint: 600,
-        settings: {},
-      },
-      {
-        breakpoint: 480,
-        settings: {},
+        breakpoint: 640,
+        settings: {
+          arrows: false,
+        },
       },
     ],
   });
