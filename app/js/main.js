@@ -1,5 +1,3 @@
-const slick = require("slick-carousel");
-
 $(function () {
   $(".top-slider").slick({
     dots: true,
