@@ -1,3 +1,6 @@
+@import "vars.scss";
+@import "fonts.scss";
+
 @media (min-width: 640px) {
   .container {
     padding: 0 30px;
@@ -23,6 +26,13 @@
       padding: 50px 0 15px;
       margin: 0 auto 30px;
       max-width: 520px;
+    }
+    &__btn {
+      display: block;
+      margin: 0 auto 113px;
+      font-size: 18px;
+      background-color: $accent;
+      color: $bg-color;
     }
   }
 }
