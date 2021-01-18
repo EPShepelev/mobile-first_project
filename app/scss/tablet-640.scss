@@ -8,4 +8,21 @@
       min-height: 100px;
     }
   }
+
+  .top {
+    min-height: 386px;
+  }
+
+  .top-slider {
+    &__item {
+      min-height: 386px;
+    }
+    &__title {
+      font-size: 60px;
+      line-height: 60px;
+      padding: 50px 0 15px;
+      margin: 0 auto 30px;
+      max-width: 520px;
+    }
+  }
 }
