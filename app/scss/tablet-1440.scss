@@ -9,4 +9,22 @@
   .menu__btn {
     margin-right: 90px;
   }
+
+  .top-slider {
+    &__item {
+      min-height: 668px;
+    }
+    &__title {
+      padding-top: 107px;
+      font-size: 96px;
+      line-height: 96px;
+      letter-spacing: 2px;
+      max-width: 865px;
+    }
+    &__text {
+      font-size: 24px;
+      line-height: 26px;
+      max-width: 886px;
+    }
+  }
 }
