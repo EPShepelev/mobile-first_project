@@ -120,6 +120,9 @@ p {
       margin: 0 auto;
     }
   }
+  &__text {
+    display: none;
+  }
   &__btn {
     display: none;
   }

@@ -5,4 +5,27 @@
   .container {
     padding: 0 40px;
   }
+
+  .top-slider {
+    &__item {
+      min-height: 465px;
+    }
+    &__title {
+      padding: 87px 0 0;
+      margin: 0 auto 0;
+      &::after {
+        display: none;
+      }
+    }
+    &__text {
+      display: block;
+      padding: 25px 0 32px;
+      font-family: "RobotoCondensed-Regular";
+      font-size: 18px;
+      line-height: 20px;
+      font-weight: 400;
+      max-width: 587px;
+      margin: 0 auto;
+    }
+  }
 }
