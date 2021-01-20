@@ -27,4 +27,13 @@
       max-width: 886px;
     }
   }
+
+  .call {
+    &__inner {
+      padding: 0 80px;
+    }
+    &__box {
+      max-width: 796px;
+    }
+  }
 }
