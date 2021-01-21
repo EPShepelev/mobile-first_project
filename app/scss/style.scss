@@ -162,6 +162,16 @@
     &:last-child {
       border-bottom: 1px solid $bg-color;
     }
+    &:hover {
+      border: 1px solid $accent;
+      .services__item-text,
+      .services__item-link {
+        display: block;
+      }
+      .services__item-title {
+        margin-bottom: 30px;
+      }
+    }
   }
   &__item-img {
     margin-bottom: 30px;
@@ -171,9 +181,12 @@
     line-height: 19px;
     letter-spacing: 2px;
     color: $text-color;
+    @extend %robotocondenced-700;
   }
   &__item-text {
     display: none;
+    margin-bottom: 17px;
+    @extend %dosis-500;
   }
   &__item-link {
     display: none;
