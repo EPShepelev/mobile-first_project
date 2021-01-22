@@ -171,10 +171,13 @@
       .services__item-title {
         margin-bottom: 30px;
       }
+      .services__item-img {
+        margin-bottom: 14px;
+      }
       .services__item-inner {
         border: 4px solid $accent;
         margin: 18px;
-        padding: 5px 20px;
+        padding: 25px 20px 5px;
         min-height: 277px;
       }
     }
