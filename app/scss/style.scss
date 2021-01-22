@@ -186,9 +186,11 @@
   &__item-text {
     display: none;
     margin-bottom: 17px;
-    @extend %dosis-500;
   }
   &__item-link {
     display: none;
+    letter-spacing: 2px;
+    color: $accent;
+    @extend %robotocondenced-700;
   }
 }
