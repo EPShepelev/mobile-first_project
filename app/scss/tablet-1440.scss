@@ -56,19 +56,16 @@
     justify-content: space-between;
   }
   &__head {
-    max-width: 393px;
+    max-width: 350px;
+    margin-right: 100px;
   }
   &__title {
-    margin-bottom: 70px;
+    margin: 90px 0 70px;
     text-align: left;
   }
   &__descr {
-    padding-bottom: 46px;
-    margin-bottom: 40px;
-  }
-  &__text {
-    margin-bottom: 32px;
-    max-width: 608px;
+    padding-bottom: 38px;
+    margin-bottom: 35px;
   }
   &__item {
     width: 25%;
