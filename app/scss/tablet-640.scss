@@ -111,25 +111,6 @@
     &:last-child {
       border-bottom: none;
     }
-    &:hover {
-      border: 1px solid $accent;
-      .services__item-text,
-      .services__item-link {
-        display: block;
-      }
-      .services__item-title {
-        margin-bottom: 30px;
-      }
-      .services__item-img {
-        margin-bottom: 14px;
-      }
-      .services__item-inner {
-        border: 4px solid $accent;
-        margin: 18px 0;
-        padding: 25px 20px 5px;
-        min-height: 277px;
-      }
-    }
   }
   &__item-img {
     margin-bottom: 30px;
