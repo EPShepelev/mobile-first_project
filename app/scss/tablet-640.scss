@@ -112,24 +112,4 @@
       border-bottom: none;
     }
   }
-  &__item-img {
-    margin-bottom: 30px;
-  }
-  &__item-title {
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 2px;
-    color: $text-color;
-  }
-  &__item-text {
-    display: none;
-    margin-bottom: 17px;
-  }
-  &__item-link {
-    display: none;
-    letter-spacing: 2px;
-    color: $accent;
-
-    text-transform: uppercase;
-  }
 }
