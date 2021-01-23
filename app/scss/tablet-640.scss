@@ -71,15 +71,27 @@
   padding: 24px 0 99px;
   &__title {
     margin-bottom: 20px;
+    padding-bottom: 0;
     &::after {
       display: none;
     }
   }
   &__descr {
-    font-size: 20px;
-    line-height: 24px;
-    color: $text-color;
-    margin-bottom: 21px;
+    font-size: 24px;
+    padding-bottom: 38px;
+    margin-bottom: 31px;
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      width: 100px;
+      height: 8px;
+      background-color: $accent;
+      bottom: 0;
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+    }
   }
   &__text {
     color: #797979;
