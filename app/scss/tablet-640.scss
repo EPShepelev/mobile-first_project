@@ -68,7 +68,7 @@
 }
 
 .services {
-  padding: 24px 0 99px;
+  padding: 24px 0 0;
   &__title {
     margin-bottom: 20px;
     padding-bottom: 0;
@@ -97,16 +97,19 @@
     font-size: 18px;
     line-height: 24px;
   }
+  &__items {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -30px;
+  }
   &__item {
     min-height: 310px;
-    padding: 0 18px;
-    border: 1px solid $bg-color;
-    border-bottom: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    width: 50%;
+    &:nth-child(even) {
+      border-left: none;
+    }
     &:last-child {
-      border-bottom: 1px solid $bg-color;
+      border-bottom: none;
     }
     &:hover {
       border: 1px solid $accent;
