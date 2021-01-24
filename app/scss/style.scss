@@ -185,6 +185,9 @@
       }
     }
   }
+  &__item-inner {
+    transition: all 0.5s;
+  }
   &__item-img {
     margin-bottom: 30px;
   }
