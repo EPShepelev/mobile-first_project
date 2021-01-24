@@ -43,34 +43,34 @@
       margin-bottom: 0;
     }
   }
-}
 
-.services {
-  padding: 50px 0 0;
-  &__title {
-    margin-bottom: 30px;
-  }
-  &__descr {
-    text-align: left;
-    &::after {
-      margin-left: 0;
+  .services {
+    padding: 50px 0 0;
+    &__title {
+      margin-bottom: 30px;
     }
-  }
-  &__text {
-    margin-bottom: 27px;
-    text-align: left;
-  }
-  &__items {
-    margin: 0 -40px;
-  }
-  &__item {
-    min-height: 334px;
-    padding: 0 65px;
-    &:hover {
-      padding: 0 18px;
-      .services__item-inner {
-        padding: 35px 60px 5px;
-        min-height: 288px;
+    &__descr {
+      text-align: left;
+      &::after {
+        margin-left: 0;
+      }
+    }
+    &__text {
+      margin-bottom: 27px;
+      text-align: left;
+    }
+    &__items {
+      margin: 0 -40px;
+    }
+    &__item {
+      min-height: 334px;
+      padding: 0 65px;
+      &:hover {
+        padding: 0 18px;
+        .services__item-inner {
+          padding: 35px 60px 5px;
+          min-height: 288px;
+        }
       }
     }
   }
