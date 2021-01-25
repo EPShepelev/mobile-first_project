@@ -61,4 +61,13 @@
       }
     }
   }
+
+  .project {
+    &__items {
+      justify-content: center;
+    }
+    &__item-img {
+      margin: 0 12px;
+    }
+  }
 }
