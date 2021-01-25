@@ -227,9 +227,18 @@
       color: #fff;
     }
   }
+  &__item-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba($bg-color, 0.83);
+    border-radius: 4px;
+    min-height: 227px;
+  }
   &__item-img {
     min-height: 250px;
     border-radius: 4px;
+    padding: 12px 14px;
   }
   &__item-link {
     display: block;
