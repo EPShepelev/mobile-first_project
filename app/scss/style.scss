@@ -262,4 +262,12 @@
 }
 
 .team {
+  padding: 20px 0 40px;
+  text-align: center;
+  &__images {
+    width: 100%;
+  }
+  &__title {
+    color: $text-color;
+  }
 }
