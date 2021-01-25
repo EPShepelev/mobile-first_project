@@ -240,6 +240,10 @@
     border-radius: 4px;
     padding: 12px 14px;
   }
+  &__item-info,
+  &__item-search {
+    margin: 0 7px;
+  }
   &__item-link {
     display: block;
     padding: 20px 0;
