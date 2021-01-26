@@ -104,16 +104,21 @@
     &__images {
       margin-bottom: 0px;
       width: 240px;
+      height: 100%;
       margin-right: 34px;
     }
     &__title {
       margin-bottom: 7px;
+      font-size: 36px;
+      line-height: 38px;
+      padding-bottom: 28px;
       &__after {
         margin-left: 0;
       }
     }
     &__text {
       margin-bottom: 30px;
+      font-size: 18px;
     }
     &__btn {
       font-size: 18px;
