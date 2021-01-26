@@ -70,4 +70,24 @@
       margin: 0 12px;
     }
   }
+
+  .team {
+    padding: 80px 0;
+    &__images {
+      width: 395px;
+      margin-right: 60px;
+    }
+    &__title {
+      margin-top: 10px;
+      margin-bottom: 19px;
+    }
+    &__text {
+      margin-bottom: 20px;
+      font-size: 18px;
+      line-height: 24px;
+    }
+    &__btn {
+      font-size: 18px;
+    }
+  }
 }
