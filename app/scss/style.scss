@@ -303,11 +303,17 @@
   }
   &__item {
     display: block;
+    position: relative;
     background-color: #fff;
     border-radius: 4px;
     margin-bottom: 20px;
     &:hover {
       border: 10px solid $accent;
+      background-color: $accent;
+      .news__item-title {
+        padding-bottom: -50px;
+        color: #fff;
+      }
     }
   }
   &__item-img {
@@ -323,5 +329,13 @@
     letter-spacing: 2px;
     text-align: left;
     color: $text-color;
+  }
+  &__item-link {
+    display: block;
+    position: absolute;
+  }
+  &__item-link img {
+    right: 0;
+    left: 0;
   }
 }
