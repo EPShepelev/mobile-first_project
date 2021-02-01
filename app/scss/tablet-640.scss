@@ -150,29 +150,14 @@
     &__items-wrapper {
       display: flex;
       flex-wrap: wrap;
+      justify-content: space-between;
     }
     &__title {
-      font-size: 24px;
+      font-size: 48px;
       line-height: 38px;
-      padding: 40px 19px 40px;
-      margin-bottom: 40px;
-      text-align: center;
-      color: $text-color;
     }
     &__item {
-      display: block;
-      position: relative;
-      background-color: #fff;
-      border-radius: 4px;
-      margin-bottom: 20px;
-      &:hover {
-        border: 10px solid $accent;
-        background-color: $accent;
-        .news__item-title {
-          padding-bottom: -50px;
-          color: #fff;
-        }
-      }
+      width: 50%;
     }
     &__item-img {
       border-radius: 4px;
